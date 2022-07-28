@@ -1,27 +1,26 @@
 # Instruction
-1.  Installer [Node.js](https://nodejs.org/en/).
-2.  Cliquez sur le fichier __**install.bat**__ qui vous permet d'installer les dépendances.
-3.  Créer une application en se connectant au [Portail Developers](https://discordapp.com/developers/applications/) sur le site de Discord puis activez l'options bot via l'onglet **Bot** et récupérez le token.
-4.  En bas de la page de l'onglet **Bot**, activez le __**SERVER MEMBERS INTENT**__
-    ![Server Members Instent](https://i.imgur.com/ywbvEv0.png)
-5. Ajoutez les émojis qui se trouvent dans le dossier __/assets/emojis__ (Vous pouvez néanmoins en choisir d'autre)
-6.  Ouvrir le fichier __**config.js**__.
-7.  Entrez les informations demandées.
-8.  Créer un fichier que vous nommerez **.env** dans lequel vous écrirez:
+1.  Install [Node.js](https://nodejs.org/en/).
+2.  Click on the file __**install.bat**__ which allows you to install the dependencies.
+3.  Create an application by connecting to the [Portail Developers](https://discordapp.com/developers/applications/) on the Discord site then activate the bot options via the **Bot** tab and retrieve the token.
+4.  At the bottom of the **Bot** tab page, enable the __**SERVER MEMBERS INTENT**__ ![Server Members Instant](https://i.imgur.com/ywbvEv0.png)
+5.  Add the emojis that are in the __/assets/emojis__ folder (You can however choose another one)
+6.  Open the __**config.js**__ file.
+7.  Enter the requested information.
+8.  Create a file that you will name **.env** in which you will write:
 ```
 token=WWWWW
 statusWebhookURL=XXXXX
 addWebhookURL=YYYYY
 removeWebhookURL=ZZZZZ
 ```
-9.  Remplacer:
-    * __WWWWW__ par le token de votre bot copié précédemment.
-    * __XXXXX__ par le lien du webhook par lequel le bot enverra le message lorsqu'il se connectera.
-    * __YYYYY__ par le lien du webhook par lequel le bot enverra le message lorsqu'il rejoindra un serveur.
-    * __ZZZZZ__ par le lien du webhook par lequel le bot enverra le message lorsqu'il quittera un serveur.
-10.  Invitez votre bot via le lien d'invitation via l'onglet **OAuth2**.
-11.  Enfin, pour lancer le bot, double-cliquez sur le fichier __**start.bat**__
-12. Si vous avez des questions, ouvrez un commentaire dans l'onglet GitHub **[Issues](https://github.com/aeziotech/bunny-logger/issues)**.
+9.  Replace:
+     * __WWWWWW__ with your bot token copied earlier.
+     * __XXXXX__ by the link of the webhook through which the bot will send the message when it connects.
+     * __YYYYY__ with the webhook link through which the bot will send the message when it joins a server.
+     * __ZZZZZ__ with the webhook link through which the bot will send the message when it leaves a server.
+10.  Invite your bot via the invitation link via the **OAuth2** tab.
+11.  Finally, to launch the bot, double-click on the file __**start.bat**__.
+12.  If you have any questions, open a comment in the GitHub tab **[Issues](https://github.com/aeziotech/bunny-logger/issues)**.
 
-__**REJOIGNEZ MOI SUR DISCORD :**__
+__**JOIN THE DISCORD SERVER OF THE BOT CREATOR:**__
 [![discord-banner](./assets/img/discord-banner.png)](https://discord.gg/jHkcbS9YWC)
